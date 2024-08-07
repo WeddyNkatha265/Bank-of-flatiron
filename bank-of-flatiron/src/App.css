@@ -42,8 +42,29 @@ th {
   background-color: #f4f4f4;
 }
 
+
 button {
-  padding: 5px 10px;
-  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+  background-color: #ff6347; /* Initial background color */
+  color: white;
   cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth effect */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #e5533d; /* Darker background on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Button active (clicked) effect */
+button:active {
+  background-color: #cc4835; /* Even darker background on click */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Less intense shadow on click */
+  transform: scale(0.95); /* Slightly decrease size on click */
 }
