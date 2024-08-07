@@ -32,9 +32,9 @@ function AddTransactionForm({ onAddTransaction }) {
   return (
     <form onSubmit={handleSubmit}>
       <input type="date" name="date" value={formData.date} onChange={handleChange} required />
-      <input type="text" name="description" value={formData.description} onChange={handleChange} required />
-      <input type="text" name="category" value={formData.category} onChange={handleChange} required />
-      <input type="number" name="amount" value={formData.amount} onChange={handleChange} required />
+      <input type="text" placeholder="Enter the description..." name="description" value={formData.description} onChange={handleChange} required />
+      <input type="text" placeholder="Enter the category..." name="category" value={formData.category} onChange={handleChange} required />
+      <input type="number" placeholder="Enter the amount" name="amount" value={formData.amount} onChange={handleChange} required />
       <button type="submit">Add Transaction</button>
     </form>
   );
