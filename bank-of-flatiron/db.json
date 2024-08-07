@@ -1,0 +1,19 @@
+{
+    "transactions": [
+      {
+        "id": 1,
+        "date": "2021-01-01",
+        "description": "Paycheck",
+        "category": "Income",
+        "amount": 1000
+      },
+      {
+        "id": 2,
+        "date": "2021-01-02",
+        "description": "Rent",
+        "category": "Housing",
+        "amount": -500
+      }
+    ]
+  }
+  
