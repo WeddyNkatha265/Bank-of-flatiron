@@ -1,6 +1,4 @@
-// src/components/TransactionTable.js
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 
 function TransactionTable({ transactions, setTransactions }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -8,9 +6,18 @@ function TransactionTable({ transactions, setTransactions }) {
 
   // Fetch transactions from JSON server on component mount
   useEffect(() => {
-    axios.get('http://localhost:8001/transactions')
-      .then(response => setTransactions(response.data))
-      .catch(error => console.error(error));
+    fetch('http://localhost:8001/transactions')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Fetched transactions:', data); // Debugging log
+        setTransactions(data);
+      })
+      .catch(error => console.error('Fetching error:', error));
   }, [setTransactions]);
 
   // Handle deleting a transaction
