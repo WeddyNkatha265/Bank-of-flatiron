@@ -121,7 +121,6 @@ This project is a mini web app to manage and display a list of recent bank trans
 ## Technologies Used
 
 - React
-- Axios
 - JSON Server
 
 ## License
