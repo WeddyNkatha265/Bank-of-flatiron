@@ -129,5 +129,5 @@ This project is licensed under the MIT License.
 ```
 
 With this setup, you should be able to build the Bank of Flatiron project in React, fetching data from a local JSON server, displaying it in a table, and adding functionalities like filtering, sorting, and deleting transactions.
-![image](https://github.com/user-attachments/assets/f5696c7a-8828-46a1-bec0-c8b680f7a66d)
-![Screenshot from 2024-08-07 15-17-13](https://github.com/user-attachments/assets/f28a2630-dd17-4fbc-8440-5f07f2e59a68)
+[image](https://github.com/user-attachments/assets/f5696c7a-8828-46a1-bec0-c8b680f7a66d)
+[Screenshot from 2024-08-07 15-17-13](https://github.com/user-attachments/assets/f28a2630-dd17-4fbc-8440-5f07f2e59a68)
