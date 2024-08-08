@@ -1,4 +1,3 @@
-# Bank-of-flatiron
 # Bank of Flatiron
 
 ## Introduction
