@@ -76,9 +76,7 @@ Ensure that your GitHub repository is set up correctly, and regularly commit you
    git push -u origin master
    ```
 
-### README File
 
-Don't forget to create a well-written `README.md` file in the root of your project to document the setup instructions, project goals, and any other relevant information. Here's a basic example:
 
 ```markdown
 # Bank of Flatiron
