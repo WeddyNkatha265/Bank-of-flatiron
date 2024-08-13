@@ -77,14 +77,6 @@ Ensure that your GitHub repository is set up correctly, and regularly commit you
    ```
 
 
-
-```markdown
-# Bank of Flatiron
-
-## Introduction
-
-This project is a mini web app to manage and display a list of recent bank transactions. It is built with React and fetches data from a local JSON server.
-
 ## Setup Instructions
 
 1. Clone the repository:
